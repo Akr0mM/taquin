@@ -1,3 +1,4 @@
+// taquin simple game
 
 const number1  = document.getElementById('1')
 const number2  = document.getElementById('2')
