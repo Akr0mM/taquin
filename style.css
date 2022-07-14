@@ -1,0 +1,47 @@
+body {
+    background-color: #dcdc2fbf;
+    margin: 25;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    margin-bottom: 60px;
+}
+
+#game {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 40vmin;
+    width: 40vmin;
+    grid-gap: 5px;
+}
+
+.number {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f34545;
+}
+
+#blank {
+    background-color: #22b1a7;
+}
+#score-text {
+    margin: 25px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+#center {
+    text-align: center;
+}
+#melange {
+    font-size: 2em;
+    border: none;
+    background-color: #f34545;
+}
